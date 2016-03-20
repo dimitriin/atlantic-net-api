@@ -1,0 +1,19 @@
+{
+    "name": "dimitriin/atlantic-net-api",
+    "description": "PHP wrapper for Atlantic.net API",
+    "authors": [
+        {
+            "name": "Dmitry Nasedkin",
+            "email": "dimitrii.nasedkin@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "phpseclib/phpseclib": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dimitriin\\AtlanticNet\\API\\": "src/"
+        }
+    }
+}
